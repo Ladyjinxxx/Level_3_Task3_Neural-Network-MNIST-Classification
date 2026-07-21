@@ -64,14 +64,6 @@ The gap between training and validation accuracy stayed small (~0.4%), indicatin
 - A plain feed-forward network flattens each image and loses spatial pixel relationships; a **Convolutional Neural Network (CNN)** would likely improve on this baseline.
 - Real-world applications of this approach include postal code recognition, bank check processing, and digitizing handwritten forms.
 
-## Project Structure
-├── Level3_Task3_NeuralNetwork_MNIST.ipynb   # Full notebook (data loading -> training -> evaluation)
-├── outputs/
-│   ├── charts/                              # Saved visualizations (PNG)
-│   └── model/
-│       └── mnist_neural_network.keras       # Trained model
-└── README.md
-
 ## Tools & Libraries
 
 Python · TensorFlow/Keras · NumPy · Matplotlib · Seaborn · scikit-learn
